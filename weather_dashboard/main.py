@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import messagebox, scrolledtext
-from weather_news_dashboard.weather_news_dashboard.weather_service import obtener_clima
-from weather_news_dashboard.weather_news_dashboard.news_service import obtener_noticias_pais
-from weather_news_dashboard.weather_news_dashboard.country_service import obtener_info_pais
-from weather_news_dashboard.weather_news_dashboard.dashboard import generar_dashboard
+from weather_service import obtener_clima
+from news_service import obtener_noticias_pais
+from country_service import obtener_info_pais
+from dashboard import generar_dashboard
 
 # 🧠 Funciones de lógica
 def mostrar_clima():
