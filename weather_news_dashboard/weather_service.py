@@ -1,7 +1,7 @@
 # weather_service.py
 import requests
 from datetime import datetime
-from weather_news_dashboard.config import OPENWEATHER_API_KEY
+from weather_news_dashboard.weather_news_dashboard.config import OPENWEATHER_API_KEY
 
 def obtener_clima(ciudad):
     if not ciudad:
