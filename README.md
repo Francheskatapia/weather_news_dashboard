@@ -22,16 +22,18 @@
 
 ---
 
-## Estructura del proyecto 📂  
-weather-news-dashboard/  
-├── main.py                # Punto de entrada  
-├── config.py              # Manejo de API keys  
-├── weather_service.py     # Lógica de clima  
-├── news_service.py        # Lógica de noticias  
-├── country_service.py     # Datos de países  
-├── dashboard.py           # Generación de reportes  
-├── requirements.txt       # Dependencias  
-└── .env.example           # Plantilla para variables de entorno  
+## Estructura del proyecto 📂
+- **La estructura principal del proyecto es algo como esto**:  
+    ```bash  
+    weather-news-dashboard/  
+    ├── main.py                # Punto de entrada  
+    ├── config.py              # Manejo de API keys  
+    ├── weather_service.py     # Lógica de clima  
+    ├── news_service.py        # Lógica de noticias  
+    ├── country_service.py     # Datos de países  
+    ├── dashboard.py           # Generación de reportes  
+    ├── requirements.txt       # Dependencias  
+    └── .env.example           # Plantilla para variables de entorno  
 
 ---
 
@@ -58,9 +60,7 @@ weather-news-dashboard/
     ```bash
     python main.py --ciudad "La Serena" --pais "Chile"
 
---- 
-
-## Opciones disponibles:
+### Opciones disponibles:
 - **ciudad**: Nombre de la ciudad (requerido).
 - **pais**: País para noticias/datos (opcional, default: Chile).
 - **exportar_json**: Guarda el reporte en reporte.json.
