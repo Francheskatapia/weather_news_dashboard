@@ -54,7 +54,7 @@ weather-news-dashboard/
 ---
 
 ## Uso 🚀
-    Ejecutar desde la terminal:
+Ejecutar desde la terminal:
     ```bash
     python main.py --ciudad "La Serena" --pais "Chile"
 
