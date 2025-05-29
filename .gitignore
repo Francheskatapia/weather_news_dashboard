@@ -31,7 +31,7 @@ env/
 *.sqlite
 Thumbs.db
 
-# 💥 Ejecutables generados (si algún día hacés un .exe)
+# 💥 Ejecutables generados
 *.exe
 *.spec
 dist/
