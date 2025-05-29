@@ -54,13 +54,13 @@ weather-news-dashboard/
 ---
 
 ## Uso 🚀
-Ejecutar desde la terminal:
+- **Ejecutar desde la terminal**:
     ```bash
     python main.py --ciudad "La Serena" --pais "Chile"
 
 --- 
 
-# Opciones disponibles:
+## Opciones disponibles:
 - **ciudad**: Nombre de la ciudad (requerido).
 - **pais**: País para noticias/datos (opcional, default: Chile).
 - **exportar_json**: Guarda el reporte en reporte.json.
@@ -75,5 +75,5 @@ Ejecutar desde la terminal:
 
 ---
 
-## Licencia 📜
+# Licencia 📜
 MIT © [Tu Nombre]
