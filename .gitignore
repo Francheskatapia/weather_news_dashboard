@@ -1,0 +1,37 @@
+# ⛔ Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ⛔ Archivos temporales o de entorno
+*.log
+*.env
+.env
+.DS_Store
+.vscode/
+*.swp
+
+# 📄 Configuración sensible con claves
+config.py
+credentials.json
+token.json
+
+# 📁 Reportes diarios generados automáticamente
+reporte_*.json
+reportes/
+*.txt
+
+# 📦 Entornos virtuales (si usás uno)
+venv/
+env/
+
+# ⚙️ Archivos de sistema o autogenerados
+*.db
+*.sqlite
+Thumbs.db
+
+# 💥 Ejecutables generados (si algún día hacés un .exe)
+*.exe
+*.spec
+dist/
+build/
