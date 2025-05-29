@@ -1,6 +1,6 @@
 # news_service.py
 import requests
-from weather_news_dashboard.weather_news_dashboard.config import NEWS_API_KEY
+from config import NEWS_API_KEY
 
 BASE_URL = "https://newsapi.org/v2/top-headlines"
 
