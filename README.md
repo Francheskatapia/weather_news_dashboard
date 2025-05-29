@@ -76,4 +76,11 @@
 ---
 
 # Licencia 📜
-MIT © [Tu Nombre]
+
+
+## 👥 Integrantes del equipo
+
+| Nombre        | GitHub Usuario        |
+|---------------|------------------------|
+|Leandro Rain|   [@leoRV14].
+|Francheska Tapia| [@FrancheskaTapia].
