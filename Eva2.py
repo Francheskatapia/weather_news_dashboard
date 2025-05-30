@@ -1,12 +1,14 @@
 import requests
 from gmail import get_gmail_service, send_email
 import datetime
-
+from config import CORREO 
+from config import OPENWEATHER_API_KEY
+from config import NEWS_API_KEY
 # Cambia esto por tu email
-TO_EMAIL = "redes.avanzadas29@gmail.com"
+TO_EMAIL = CORREO
 
 def get_weather():
-    API_KEY = "8f9539d0670489d1bf848349ded9438a"
+    API_KEY = OPENWEATHER_API_KEY
     CITY = "La Serena,CL"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric&lang=es"
     response = requests.get(url)
@@ -29,7 +31,7 @@ def get_weather():
         return "No se pudo obtener el clima."
 
 def get_news():
-    API_KEY = "5e16c55de71140f6abb016361e1d8d4c"
+    API_KEY = NEWS_API_KEY
     url = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEY}&pageSize=3"
     response = requests.get(url)
     data = response.json()
