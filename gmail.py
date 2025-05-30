@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
-from google.auth.transport.requests import Request  # ✅ ESTA LÍNEA ES LA QUE FALTABA
+from google.auth.transport.requests import Request  
 import os
 
 SCOPES = ['https://www.googleapis.com/auth/gmail.send']
